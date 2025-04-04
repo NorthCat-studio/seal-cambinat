@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тюлень Комбинат</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Тюлень Комбинат</h1>
+        <div id="login-section">
+            <p id="userDisplay"></p>
+            <input type="text" id="username" placeholder="Введите имя">
+            <button id="loginButton">Войти</button>
+        </div>
+        <div id="game-section" style="display: none;">
+            <p id="score">Монеты: 0</p>
+            <div class="seal-container">
+                <img id="sealImage" src="https://placehold.co/200x200" class="seal-img" alt="Тюлень">
+            </div>
+            <button id="tapButton">Тапать</button>
+            <button id="autoTapperButton">Купить авто-тапер (50 монет)</button>
+            <h2>Магазин</h2>
+            <div id="shop" class="shop-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
